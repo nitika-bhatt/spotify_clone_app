@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(204, 210, 215);
+    background-color: rgb(200, 222, 244);
   
   }
   *{
@@ -15,7 +15,7 @@ body{
       background-color:rgb(0, 0, 0);
       color:#b5c7f8;
       list-style-type: none;
-      font-size: 100%;
+      font-size: 120%;
       cursor:pointer;
       
   }
@@ -110,7 +110,11 @@ body{
       display:flex;
       justify-content: center;
   }
-  
+  .master{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
   .container{
       height:120px;
@@ -118,7 +122,7 @@ body{
       background-color:rgb(127, 133, 140);
       display: flex;
       align-items: center;
-      margin-top:2px;
+      margin-top:50px;
       margin-left:20%;
       margin-right:20%;
       border-radius:12px;
@@ -127,8 +131,28 @@ body{
       
       
   }
+
+  .quote{
+      display: flex;
+      height:200px;
+    background-color: rgb(0, 0, 0);
+    color:#b5c7f8;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
   
-  
+  .for{
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    color:#b5c7f8;
+    font-size: 30px;
+    
+    padding-left: 20%;
+    padding-right: 20%;
+    
+  }
   .album{
       display:flex;
       height:90vh;
@@ -136,26 +160,32 @@ body{
       /* justify-content: center; */
       color:rgb(181, 199, 248);
       
-      margin-left: 2%;
-      margin-right: 2%;
-      margin-bottom: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 10%;
       border-radius: 12px;
-      margin-top: 2px;
+      margin-top: 50px;
       background-image: url(gif.gif);
   }
   .songlist{
-      padding-left: 20px;
-      padding-bottom: 100px;;
+      padding-left: 50px;
+      padding-bottom: 50px;
+      padding-top: 1%;
   }
   
+  .time{
+    display: flex;
+    justify-content: space-between;
+    
+  }
   .songitem{
       display: flex;
       height:25px;
       width:30vw;
       margin-top: 10px;
       margin-bottom: 10px;
-      padding-top: 5px;
-      padding-bottom:5px;
+      padding-top: 10px;
+      padding-bottom:10px;
       /* padding-left:10px ; */
       background-color: rgb(173, 173, 234);
       color:black;
@@ -165,7 +195,8 @@ body{
   }
   
   .songitem img{
-      width:20px;
+      width:35px;
+      border-radius:10px;
       margin-left: 20px;
       margin-right:20px;
   }
@@ -174,11 +205,7 @@ body{
       width:2%;
   }
   
-  
-  
-  
-  
-  .play{
+  .time i{
       
       /* margin-top:5px; */
       cursor: pointer;
